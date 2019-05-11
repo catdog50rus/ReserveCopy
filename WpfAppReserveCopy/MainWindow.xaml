@@ -1,0 +1,31 @@
+﻿<Window x:Class="WpfAppReserveCopy.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfAppReserveCopy"
+        mc:Ignorable="d"
+        Title="ReserveCopy" Height="450" Width="800">
+    <DockPanel>
+        <Menu DockPanel.Dock="Top">
+            <MenuItem x:Name="menuFile" Header="Файл">
+                <MenuItem x:Name="programOptions" Header="Настройки">
+
+                </MenuItem>
+                <MenuItem x:Name="programClose" Header="Выход" Click="ProgramClose_Click">
+                    
+                </MenuItem>
+            </MenuItem>
+        </Menu>
+        <Button x:Name="buttonCatalog" Height="20" Width="70" Content="Каталог назначения" Click="ButtonCatalog_Click" RenderTransformOrigin="3.371,1.075" >
+            
+
+        </Button>
+        <TextBox x:Name="textCatalog">
+            
+        </TextBox>
+
+    </DockPanel>
+    
+
+</Window>
